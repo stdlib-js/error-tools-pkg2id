@@ -64,7 +64,7 @@ Returns the error identifier prefix associated with a specified package name.
 
 ```javascript
 var v = pkg2id( '@stdlib/math-base-special-sin' );
-// returns 'Wiw'
+// returns '0H5'
 ```
 
 If provided an unrecognized `pkg`, the function returns `null`.
@@ -88,7 +88,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 
     ```javascript
     var v = pkg2id( '@stdlib/math-base-special-sin' );
-    // returns 'Wiw'
+    // returns '0H5'
     ```
 
 </section>
@@ -177,7 +177,7 @@ Options:
 
 ```bash
 $ stdlib-pkg2id '@stdlib/math-base-special-sin'
-Wiw
+0H5
 ```
 
 </section>
