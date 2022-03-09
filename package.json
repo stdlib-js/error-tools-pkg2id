@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/error-tools-pkg2id",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return the error identifier prefix associated with a specified package name.",
   "license": "Apache-2.0",
   "author": {
