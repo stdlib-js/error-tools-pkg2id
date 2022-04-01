@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/error-tools-pkg2id",
+  "version": "0.0.0",
+  "description": "Return the error identifier prefix associated with a specified package name.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/error-tools-pkg2id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "standard",
+    "library",
+    "lib",
+    "error",
+    "identifier",
+    "id",
+    "package",
+    "name",
+    "pkg"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
