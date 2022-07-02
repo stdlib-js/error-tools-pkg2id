@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.pkg2id;
+})();
 })();
 </script>
 ```
@@ -123,6 +125,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var prefix = pkg2id( '@stdlib/math-base-special-sin' );
 var errorCode = '23';
@@ -132,6 +135,7 @@ var msg = formatProdErrorMessage( code );
 console.log( msg );
 // => <string>
 
+})();
 })();
 </script>
 </body>
