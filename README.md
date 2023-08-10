@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@deno/mod.js';
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.0.2-deno/mod.js';
 ```
 
 #### pkg2id( pkg )
@@ -93,7 +93,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 
 ```javascript
 import formatProdErrorMessage from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@deno/mod.js';
-import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@deno/mod.js';
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.0.2-deno/mod.js';
 
 var prefix = pkg2id( '@stdlib/math-base-special-sin' );
 var errorCode = '23';
