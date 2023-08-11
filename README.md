@@ -43,7 +43,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-pkg2id = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@umd/browser.js' )
+pkg2id = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.0.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -55,7 +55,7 @@ var pkg2id = require( 'path/to/vendor/umd/error-tools-pkg2id/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.0.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -120,7 +120,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.0.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
