@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-pkg2id/tags). For example,
+
+```javascript
 import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.1.0-deno/mod.js';
 ```
 
@@ -104,7 +109,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 
 ```javascript
 import formatProdErrorMessage from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@deno/mod.js';
-import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.1.0-deno/mod.js';
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@deno/mod.js';
 
 var prefix = pkg2id( '@stdlib/math-base-special-sin' );
 var errorCode = '23';
