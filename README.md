@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-pkg2id/tags). For example,
+
+```javascript
 import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.1.0-esm/index.mjs';
 ```
 
@@ -109,7 +114,7 @@ var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
 <script type="module">
 
 import formatProdErrorMessage from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs';
-import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@v0.1.0-esm/index.mjs';
+import pkg2id from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-pkg2id@esm/index.mjs';
 
 var prefix = pkg2id( '@stdlib/math-base-special-sin' );
 var errorCode = '23';
