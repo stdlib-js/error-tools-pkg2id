@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-14)
 
 <section class="features">
 
 ### Features
 
+-   [`a41081b`](https://github.com/stdlib-js/stdlib/commit/a41081bbf49c4ffcb4d0116749bb98e320a96ee2) - update error databases [(#2595)](https://github.com/stdlib-js/stdlib/pull/2595)
 -   [`9044e4d`](https://github.com/stdlib-js/stdlib/commit/9044e4d4b9e390c08ac28195958d2941129a2fe8) - update error databases [(#2529)](https://github.com/stdlib-js/stdlib/pull/2529)
 -   [`a0b68ef`](https://github.com/stdlib-js/stdlib/commit/a0b68ef39946d3dba3bbeddf028b10aa9ed28b92) - update error databases [(#2438)](https://github.com/stdlib-js/stdlib/pull/2438)
 -   [`7d9bf3e`](https://github.com/stdlib-js/stdlib/commit/7d9bf3e1e3ea42afce52625cc7a7e1a506607828) - update error databases [(##2343)](#2343 )
@@ -66,6 +67,7 @@
 
 <details>
 
+-   [`a41081b`](https://github.com/stdlib-js/stdlib/commit/a41081bbf49c4ffcb4d0116749bb98e320a96ee2) - **feat:** update error databases [(#2595)](https://github.com/stdlib-js/stdlib/pull/2595) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`9044e4d`](https://github.com/stdlib-js/stdlib/commit/9044e4d4b9e390c08ac28195958d2941129a2fe8) - **feat:** update error databases [(#2529)](https://github.com/stdlib-js/stdlib/pull/2529) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a0b68ef`](https://github.com/stdlib-js/stdlib/commit/a0b68ef39946d3dba3bbeddf028b10aa9ed28b92) - **feat:** update error databases [(#2438)](https://github.com/stdlib-js/stdlib/pull/2438) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7d9bf3e`](https://github.com/stdlib-js/stdlib/commit/7d9bf3e1e3ea42afce52625cc7a7e1a506607828) - **feat:** update error databases [(##2343)](#2343 ) _(by stdlib-bot, Philipp Burckhardt)_
