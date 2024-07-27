@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/error-tools-pkg2id",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Return the error identifier prefix associated with a specified package name.",
   "license": "Apache-2.0",
   "author": {
@@ -46,13 +46,13 @@
     "@stdlib/assert-is-string": "^0.2.1",
     "@stdlib/cli-ctor": "^0.2.1",
     "@stdlib/fs-read-file": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
     "@stdlib/assert-is-windows": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/fs-write-file": "^0.2.1",
     "@stdlib/process-exec-path": "^0.2.1",
     "@stdlib/string-replace": "^0.2.1",
