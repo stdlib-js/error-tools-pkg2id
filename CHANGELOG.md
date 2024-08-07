@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-08-07)
 
 <section class="features">
 
 ### Features
 
+-   [`9dc76e1`](https://github.com/stdlib-js/stdlib/commit/9dc76e1c16759494ae185e10b31c0bc88e23e15a) - update error databases [(#2740)](https://github.com/stdlib-js/stdlib/pull/2740)
 -   [`83a88a1`](https://github.com/stdlib-js/stdlib/commit/83a88a1e4925b14283a38dcc81c6f430d14efe1c) - update error databases [(#2685)](https://github.com/stdlib-js/stdlib/pull/2685)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`9dc76e1`](https://github.com/stdlib-js/stdlib/commit/9dc76e1c16759494ae185e10b31c0bc88e23e15a) - **feat:** update error databases [(#2740)](https://github.com/stdlib-js/stdlib/pull/2740) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`83a88a1`](https://github.com/stdlib-js/stdlib/commit/83a88a1e4925b14283a38dcc81c6f430d14efe1c) - **feat:** update error databases [(#2685)](https://github.com/stdlib-js/stdlib/pull/2685) _(by stdlib-bot, Philipp Burckhardt)_
 
 </details>
