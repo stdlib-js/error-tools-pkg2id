@@ -45,106 +45,25 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/error-tools-pkg2id
-```
 
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var pkg2id = require( '@stdlib/error-tools-pkg2id' );
-```
-
-#### pkg2id( pkg )
-
-Returns the error identifier prefix associated with a specified package name.
-
-```javascript
-var v = pkg2id( '@stdlib/math-base-special-sin' );
-// returns '0YK'
-```
-
-If provided an unrecognized `pkg`, the function returns `null`.
-
-```javascript
-var v = pkg2id( 'unrecognized_pkg_beep_boop_bop_bip' );
-// returns null
-```
-
-</section>
-
-<!-- /.usage -->
 
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
-<section class="notes">
 
-## Notes
-
--   The function supports providing both internal and standalone package names.
-
-    ```javascript
-    var v = pkg2id( '@stdlib/math-base-special-sin' );
-    // returns '0YK'
-    ```
-
-</section>
-
-<!-- /.notes -->
 
 <!-- Package usage examples. -->
 
-<section class="examples">
 
-## Examples
-
-<!-- TODO: better example -->
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var formatProdErrorMessage = require( '@stdlib/error-tools-fmtprodmsg' );
-var pkg2id = require( '@stdlib/error-tools-pkg2id' );
-
-var prefix = pkg2id( '@stdlib/math-base-special-sin' );
-var errorCode = '23';
-var code = prefix + errorCode;
-
-var msg = formatProdErrorMessage( code );
-console.log( msg );
-// => <string>
-```
-
-</section>
-
-<!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
+
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -162,7 +81,7 @@ npm install -g @stdlib/error-tools-pkg2id-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: stdlib-pkg2id [options] error-tools-pkg2id
@@ -189,7 +108,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ stdlib-pkg2id '@stdlib/math-base-special-sin'
@@ -224,6 +143,11 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/error-tools-pkg2id`][@stdlib/error-tools-pkg2id]</span><span class="delimiter">: </span><span class="description">return the error identifier prefix associated with a specified package name.</span>
+
+
 <!-- /.related -->
 
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
@@ -239,7 +163,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -257,8 +181,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/error-tools-pkg2id.svg
-[npm-url]: https://npmjs.org/package/@stdlib/error-tools-pkg2id
+[npm-image]: http://img.shields.io/npm/v/@stdlib/error-tools-pkg2id-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/error-tools-pkg2id-cli
 
 [test-image]: https://github.com/stdlib-js/error-tools-pkg2id/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/error-tools-pkg2id/actions/workflows/test.yml?query=branch:main
