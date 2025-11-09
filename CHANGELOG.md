@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-28)
+## Unreleased (2025-11-09)
 
 <section class="features">
 
 ### Features
 
+-   [`99e8f14`](https://github.com/stdlib-js/stdlib/commit/99e8f1412d6a27eb27e5d0d02d9f81945d14fbd5) - update error databases [(#8454)](https://github.com/stdlib-js/stdlib/pull/8454)
 -   [`5c9fb38`](https://github.com/stdlib-js/stdlib/commit/5c9fb388f6b4a17bda578345251c84c666514ec8) - update error databases [(#8150)](https://github.com/stdlib-js/stdlib/pull/8150)
 -   [`a6cf0cf`](https://github.com/stdlib-js/stdlib/commit/a6cf0cf725f003bbfcd5d24ff2221919338c954e) - update error databases [(#8115)](https://github.com/stdlib-js/stdlib/pull/8115)
 -   [`3cae960`](https://github.com/stdlib-js/stdlib/commit/3cae960432d7d903d0eb37a094db20d5f75f72cf) - update error databases [(#8069)](https://github.com/stdlib-js/stdlib/pull/8069)
@@ -49,6 +50,7 @@
 
 <details>
 
+-   [`99e8f14`](https://github.com/stdlib-js/stdlib/commit/99e8f1412d6a27eb27e5d0d02d9f81945d14fbd5) - **feat:** update error databases [(#8454)](https://github.com/stdlib-js/stdlib/pull/8454) _(by stdlib-bot)_
 -   [`5c9fb38`](https://github.com/stdlib-js/stdlib/commit/5c9fb388f6b4a17bda578345251c84c666514ec8) - **feat:** update error databases [(#8150)](https://github.com/stdlib-js/stdlib/pull/8150) _(by stdlib-bot)_
 -   [`a6cf0cf`](https://github.com/stdlib-js/stdlib/commit/a6cf0cf725f003bbfcd5d24ff2221919338c954e) - **feat:** update error databases [(#8115)](https://github.com/stdlib-js/stdlib/pull/8115) _(by stdlib-bot)_
 -   [`3cae960`](https://github.com/stdlib-js/stdlib/commit/3cae960432d7d903d0eb37a094db20d5f75f72cf) - **feat:** update error databases [(#8069)](https://github.com/stdlib-js/stdlib/pull/8069) _(by stdlib-bot)_
